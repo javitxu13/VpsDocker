@@ -39,3 +39,6 @@ volumes:
   html:
 
 networks:
+ proxy:
+  name: nginx-proxy
+  external: true
